@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tutorial.vendingmachine.service.VendingMachineServiceLayerImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE! - in tutorial.vendingmachine.service.VendingMachineServiceLayerImplTest
+testGetAllItems  Time elapsed: 0.01 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at tutorial.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetAllItems(VendingMachineServiceLayerImplTest.java:79)
+
+testGetVendItemCost  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1.25> but was: <1>
+	at tutorial.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetVendItemCost(VendingMachineServiceLayerImplTest.java:114)
+
+testRemoveOneItemCount  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NumberFormatException: null
+	at tutorial.vendingmachine.service.VendingMachineServiceLayerImplTest.testRemoveOneItemCount(VendingMachineServiceLayerImplTest.java:98)
+
